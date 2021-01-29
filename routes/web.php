@@ -19,7 +19,11 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+<<<<<<< HEAD
 Auth::routes(['verify'=>true]);
+=======
+Auth::routes();
+>>>>>>> 40e01d3338b74af74c1be0241c53b0017410a646
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
