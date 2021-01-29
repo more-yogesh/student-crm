@@ -45,19 +45,3 @@ Route::get('notes/create', [App\Http\Controllers\NoteController::class, 'create'
 
 });
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
->>>>>>> 53b490c753df696b78f90ead71c8723a293ad995
